@@ -1,6 +1,7 @@
-pandas 
-numpy
-matplotlib
-scikit-learn
-seaborn
-requests
+langchain
+langchain-groq
+python-dotenv
+ipykernel
+langchain_google_genai
+sentence-transformers
+-e .

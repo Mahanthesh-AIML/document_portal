@@ -4,4 +4,7 @@ python-dotenv
 ipykernel
 langchain_google_genai
 sentence-transformers
+langchain_community
+pypdf
+faiss-cpu
 -e .

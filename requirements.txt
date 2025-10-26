@@ -1,10 +1,29 @@
-langchain
-langchain-groq
-python-dotenv
-ipykernel
-langchain_google_genai
-sentence-transformers
-langchain_community
-pypdf
-faiss-cpu
--e .
+# =============================
+# Core LangChain Ecosystem
+# =============================
+
+langchain                 # Base LangChain framework (chains, tools, schemas)
+langchain-community       # Integrations: loaders, vector stores, utilities
+langchain-groq            # Interface for Groq LLMs (ChatGroq)
+langchain-google-genai    # For Google Generative AI models (Gemini / embeddings)
+
+# =============================
+# Embeddings and NLP
+# =============================
+
+sentence-transformers     # Pretrained models for text embeddings (MiniLM, etc.)
+faiss-cpu                 # High-speed vector search engine for similarity search
+
+# =============================
+# Utilities & Environment
+# =============================
+
+python-dotenv             # Load API keys and configs from .env file
+pypdf                     # PDF parsing for document loaders
+ipykernel                 # Enables Jupyter/VSCode interactive notebook kernel
+
+# =============================
+# Local Package Reference (optional)
+# =============================
+
+-e .                      # Editable install for your local project (if using setup.py)

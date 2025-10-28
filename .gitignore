@@ -1,3 +1,13 @@
+#document_portal
+document_portal.egg-info
+venv/
+logs/
+*.pyc
+__pycache__/
+.env
+.envrc
+test.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -158,6 +168,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+document_portal.egg-info
 
 # Spyder project settings
 .spyderproject

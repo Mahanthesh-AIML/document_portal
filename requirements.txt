@@ -14,6 +14,11 @@ langchain-google-genai    # For Google Generative AI models (Gemini / embeddings
 sentence-transformers     # Pretrained models for text embeddings (MiniLM, etc.)
 faiss-cpu                 # High-speed vector search engine for similarity search
 
+#others
+structlog
+pymupdf
+
+
 # =============================
 # Utilities & Environment
 # =============================
